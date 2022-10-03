@@ -9,4 +9,4 @@ RUN apt-get update && \
     cd ipmitool-IPMITOOL_1_8_19 && \
     ./bootstrap && ./configure && make && make install
 
-ENTRYPOINT "/usr/local/bin/ipmitoolipmitool"
+ENTRYPOINT "/usr/local/bin/ipmitool"
