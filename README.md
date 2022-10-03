@@ -1,5 +1,6 @@
 ## commands
-ipmitool -H 10.2.0.218 -U root -P <password> shell
+ipmitool -H 10.2.0.218 -U root -P [password] shell
 
-sel
+### get event log
+
 sel list 150
