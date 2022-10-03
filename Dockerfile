@@ -6,7 +6,7 @@ RUN apt-get update && \
     cd /tmp && \
     wget https://github.com/ipmitool/ipmitool/archive/refs/tags/IPMITOOL_1_8_19.tar.gz && \
     tar zxvf IPMITOOL_1_8_19.tar.gz && \
-    cd ipmitool-IPMITOOL_1_8_19
+    cd ipmitool-IPMITOOL_1_8_19 && \
     ./bootstrap && ./configure && make && make install
 
 ENTRYPOINT "/usr/local/bin/ipmitoolipmitool"
